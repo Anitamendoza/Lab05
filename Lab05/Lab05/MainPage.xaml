@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab05.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Button x:Name="Item3" Text="DataPicker"></Button>
+                <Button x:Name="Item14" Text="ListviewSource"></Button>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <Button x:Name="Item1"  Text="ButtonDemo"></Button>
+                    <Button x:Name="Item2"  Text="ButtonCode"></Button>
+                    <Button x:Name="Item4"  Text="EditorCode"></Button>
+                    <Button x:Name="Item5"  Text="EditorDemo"></Button>
+                    <Button x:Name="Item6"  Text="EntryCode"></Button>
+                    <Button x:Name="Item7"  Text="EntryDemo"></Button>
+                    <Button x:Name="Item8"  Text="ImageDemo"></Button>
+                    <Button x:Name="Item9"  Text="EmbeddedImage"></Button>
+                    <Button x:Name="Item10"  Text="LabelCode"></Button>
+                    <Button x:Name="Item11"  Text="LabelDemo"></Button>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
