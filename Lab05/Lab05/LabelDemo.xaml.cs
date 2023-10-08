@@ -15,6 +15,7 @@ namespace Lab05
         public LabelDemo()
         {
             InitializeComponent();
+
         }
     }
 }

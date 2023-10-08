@@ -15,7 +15,9 @@ namespace Lab05
         public ButtonCode()
         {
             InitializeComponent();
+
             Title = "Code Button Click";
+
             Label label = new Label
             {
                 Text = "Click the Button Below",
@@ -25,6 +27,7 @@ namespace Lab05
             };
 
             Button button = new Button
+
             {
                 Text = "Click to Rotate Text!",
                 VerticalOptions = LayoutOptions.CenterAndExpand,

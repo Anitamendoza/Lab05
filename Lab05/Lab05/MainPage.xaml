@@ -5,23 +5,26 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <StackLayout>
-                <Button x:Name="Item3" Text="DataPicker"></Button>
-                <Button x:Name="Item14" Text="ListviewSource"></Button>
+            <StackLayout Padding="5">
+                <Button x:Name="Item3" Text="DataPicker" Background="Purple"></Button>
+                <Button x:Name="Item14" Text="ListviewSource" Background="Pink"></Button>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <StackLayout>
-                    <Button x:Name="Item1"  Text="ButtonDemo"></Button>
-                    <Button x:Name="Item2"  Text="ButtonCode"></Button>
-                    <Button x:Name="Item4"  Text="EditorCode"></Button>
-                    <Button x:Name="Item5"  Text="EditorDemo"></Button>
-                    <Button x:Name="Item6"  Text="EntryCode"></Button>
-                    <Button x:Name="Item7"  Text="EntryDemo"></Button>
-                    <Button x:Name="Item8"  Text="ImageDemo"></Button>
-                    <Button x:Name="Item9"  Text="EmbeddedImage"></Button>
-                    <Button x:Name="Item10"  Text="LabelCode"></Button>
-                    <Button x:Name="Item11"  Text="LabelDemo"></Button>
+                <StackLayout Padding="5">
+                    <Button x:Name="Item1"  Text="ButtonDemo" Background="Purple"></Button>
+                    <Button x:Name="Item2"  Text="ButtonCode" Background="Pink"></Button>
+                    <Button x:Name="Item4"  Text="EditorDemo" Background="Violet"></Button>
+                    <Button x:Name="Item5"  Text="EditorCode" Background="Purple"></Button>
+                    <Button x:Name="Item6"  Text="EntryDemo" Background="Pink"></Button>
+                    <Button x:Name="Item7"  Text="EntryCode" Background="Violet"></Button>
                 </StackLayout>
+                <StackLayout Padding="5">
+                        <Button x:Name="Item8"  Text="LabelDemo" Background="Purple"></Button>
+                        <Button x:Name="Item9"  Text="LabelCode" Background="Pink"></Button>
+                        <Button x:Name="Item10"  Text="LocalImage" Background="Violet"></Button>
+                        <Button x:Name="Item11"  Text="EmbeddedImage" Background="Purple"></Button>
+                </StackLayout>
+               
             </StackLayout>
 
         </StackLayout>

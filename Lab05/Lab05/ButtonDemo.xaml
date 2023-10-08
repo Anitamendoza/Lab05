@@ -1,24 +1,21 @@
-﻿ using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab05.ButtonDemo">
+    <ContentPage.Content>
+        <StackLayout Padding="5">
+            <Label x:Name="label"
+                Text="Click the Button below"
+                FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" />
 
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
-namespace Lab05
-{
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ButtonDemo : ContentPage
-    {
-        public ButtonDemo()
-        {
-            InitializeComponent();
-        }
-        async void OnButtonClicked(object sender, EventArgs args)
-        {
-            await label.RelRotateTo(360, 1000);
-        }
-    }
-}
+            <Button Text="Click to Rotate Text!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" 
+                Clicked="OnButtonClicked"
+                Background="Purple"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
